@@ -1,6 +1,5 @@
 # Functional Koans
 
-
 ### About the Koans
 
 There are several functional languages that have contributed their own
@@ -9,12 +8,16 @@ detailed instructions on how to get started.
 
 ### Getting Started
 
-To get the koans for a particular language, simply checkout the
-branch:
+To download the dependencies, install leiningen
+(http://github.com/technomancy/leiningen). After you have leiningen
+installed run 
 
-`git checkout -b <branch_name>`
+`lein deps`
 
-where <branch_name> is the name of the branch (language) you want to
-work on.  To get a list of all branches run:
+which will download all dependencies you need to run the clojure koans.
 
-`git branch -a`
+### Running The Koans
+
+To run the koans, simply run
+
+lein run
