@@ -9,12 +9,15 @@ detailed instructions on how to get started.
 
 ### Getting Started
 
-To get the koans for a particular language, simply checkout the
-branch:
+To get the koans for a particular language, simply clone the repo and
+checkout the branch:
 
-`git checkout -b <branch_name>`
+'git clone git://github.com/relevance/functional-koans.git' 
+'git checkout branch -b <branch_name>'
+'git pull origin <branch_name>'
+
 
 where <branch_name> is the name of the branch (language) you want to
 work on.  To get a list of all branches run:
 
-`git branch -a`
+'git branch -a'
